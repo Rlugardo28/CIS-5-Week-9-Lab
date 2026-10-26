@@ -11,7 +11,7 @@ double average(const int a[], int n) {
       return 0.0;
   }
   double sum = 0;
-  for (int i = 0, i < n; i++) {
+  for (int i = 0; i < n; i++) {
       sum += a[i];
   }
   return sum / n; 
@@ -25,7 +25,7 @@ int main() {
   const int N = 4;
   int scores[N] = {80, 90, 70, 100};
   // TODO: double avg = average(scores, N);
-  double avg = avergae(scores, N);
+  double avg = average(scores, N);
   // TODO: printSummary(avg);
   printSummary(avg);
   
